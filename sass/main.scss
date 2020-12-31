@@ -1,0 +1,149 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 80
+:: Description: Page 80
+:: Created: 12/12/2020  MM/DD/YYYY
+-------------------------- */
+
+/* ----------------------
+[Table of contents]
+01.Base CSS
+02.Template CSS
+
+ --------------------------*/
+
+/*  ----------- 01- Start Base CSS  ----------- */
+
+:root {
+  --main-black-color: #222;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Sequel_Sans_Book";
+  font-size: 16px;
+  font-weight: 200;
+  @media (max-width: 992px) {
+    font-size: 10px;
+  }
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start page CSS   -----------*/
+.page {
+  background-color: #000;
+  color: #eef2e2;
+  text-align: center;
+  .h-logo {
+    margin: 40px 0;
+    img {
+      width: 15vw;
+      @media (max-width: 992px) {
+        width: 25vw;
+      }
+    }
+  }
+  .bon {
+    font-size: 7em;
+    line-height: 0.8;
+    font-family: "sequel 100black-45", sans-serif;
+    @media (max-width: 992px) {
+      font-size: 5.5em;
+    }
+  }
+  .annee {
+    font-size: 6em;
+    font-family: "sequel 100black-45";
+
+    @media (max-width: 992px) {
+      font-size: 4.5em;
+      line-height: 1em;
+    }
+
+    .black {
+      color: #000;
+      -webkit-text-stroke: 0.6px #eee;
+    }
+    .white {
+      font-weight: 600;
+    }
+  }
+  .motivation {
+    font-size: 2em;
+    width: 80%;
+    margin: 30px auto;
+  }
+  .bon_img {
+    img {
+      width: 9vw;
+    }
+  }
+  .my_work {
+    margin: 30px 0 40px;
+    @media (max-width: 992px) {
+      margin: 20px 0 30px;
+    }
+    .work-title {
+      font-size: 1.8em;
+      font-weight: 200;
+    }
+    .image {
+      margin: 8px 0;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .contact {
+    .moti-contact {
+      font-size: 2.4em;
+      font-weight: 100;
+    }
+    .conact-btn {
+      margin: 40px 0;
+      .btn {
+        text-transform: uppercase;
+        background-color: #eee;
+        color: #000 !important;
+        font-weight: 600;
+        font-size: 1.5em;
+        padding: 8px 20px;
+        border-radius: 0;
+      }
+    }
+    .cont-site {
+      font-size: 1.5em;
+    }
+    .info {
+      font-size: 1.5em;
+    }
+    .social {
+      margin: 25px 0 38px;
+      li {
+        margin: 0 15px;
+        display: inline-block;
+        img {
+          width: 22px;
+        }
+      }
+    }
+  }
+}
+
+/*  ----------- 02 -End page CSS   -----------*/
