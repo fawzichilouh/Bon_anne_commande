@@ -135,11 +135,13 @@ p {
 }
 
 .page .my_work .image {
-  margin: 8px 0;
+  margin: -6px 0;
 }
 
 .page .my_work .image img {
   width: 100%;
+  -webkit-transform: scaleY(0.9);
+  transform: scaleY(0.9);
 }
 
 .page .contact .moti-contact {
