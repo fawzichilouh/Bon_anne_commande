@@ -1,192 +1,132 @@
-/* --------------------------
-:: Template Name: Eventsia : Page 80
-:: Description: Page 80
-:: Created: 12/12/2020  MM/DD/YYYY
--------------------------- */
-/* ----------------------
-[Table of contents]
-01.Base CSS
-02.Template CSS
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--Bootstrap require-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
- --------------------------*/
-/*  ----------- 01- Start Base CSS  ----------- */
-:root {
-  --main-black-color: #222;
-}
+    <!--Font import -->
 
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+    <link href="fonts/styleFont.css" rel="stylesheet" />
+    <title>Nicolas</title>
+  </head>
+  <body class="page">
+    <div class="container">
+      <div class="h-logo">
+        <img src="files/Group 9.svg" alt="" />
+      </div>
+      <h2 class="bon">Bonne année</h2>
+      <h2 class="annee">
+        <span class="black">2021</span>
+        <span class="white">2021</span>
+        <span class="black">2021</span>
+      </h2>
+      <p class="motivation">
+        Merci de m'avoir fait confiance durant l'année 2020, en espérant vous
+        retrouver en 2021 pour poursuivre nos collaborations graphiques !
+      </p>
+      <div class="bon_img">
+        <img src="files/bon_anne.png" alt="" />
+      </div>
+      <div class="my_work">
+        <p class="work-title">Rapide coup d'oeil sur l'année 2020</p>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work1.jpg" alt="" />
+            </div>
+          </div>
 
-a {
-  color: inherit !important;
-}
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work4.jpg" alt="" />
+            </div>
+          </div>
 
-a:hover {
-  text-decoration: none !important;
-}
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work6.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work7.jpg" alt="" />
+            </div>
+          </div>
 
-li {
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  max-width: 100%;
-}
-
-body {
-  font-family: "Sequel_Sans_Book";
-  font-size: 16px;
-  font-weight: 200;
-}
-
-@media (max-width: 992px) {
-  body {
-    font-size: 10px;
-  }
-}
-
-p {
-  -webkit-transform: scaleY(0.9);
-  transform: scaleY(0.9);
-}
-
-/*  ----------- 01 -End Base CSS   -----------*/
-/*  ----------- 02 -Start page CSS   -----------*/
-.page {
-  background-color: #000;
-  color: #eef2e2;
-  text-align: center;
-}
-
-.page .h-logo {
-  margin: 40px 0;
-}
-
-.page .h-logo img {
-  width: 15vw;
-}
-
-@media (max-width: 992px) {
-  .page .h-logo img {
-    width: 25vw;
-  }
-}
-
-.page .bon {
-  font-size: 7em;
-  line-height: 0.8;
-  font-family: "sequel 100black-45", sans-serif;
-}
-
-@media (max-width: 992px) {
-  .page .bon {
-    font-size: 5.5em;
-  }
-}
-
-.page .annee {
-  font-size: 6em;
-  font-family: "sequel 100black-45";
-}
-
-@media (max-width: 992px) {
-  .page .annee {
-    font-size: 4.5em;
-    line-height: 1em;
-  }
-}
-
-.page .annee .black {
-  color: #000;
-  -webkit-text-stroke: 0.6px #eee;
-}
-
-.page .annee .white {
-  font-weight: 600;
-}
-
-.page .motivation {
-  font-size: 2em;
-  width: 80%;
-  margin: 30px auto;
-}
-
-.page .bon_img img {
-  width: 9vw;
-}
-
-@media (max-width: 992px) {
-  .page .bon_img img {
-    width: 12vw;
-  }
-}
-
-.page .my_work {
-  margin: 30px 0 40px;
-}
-
-@media (max-width: 992px) {
-  .page .my_work {
-    margin: 20px 0 30px;
-  }
-}
-
-.page .my_work .work-title {
-  font-size: 1.8em;
-  font-weight: 200;
-}
-
-.page .my_work .image {
-  margin: 15px 0;
-}
-
-.page .my_work .image img {
-  width: 100%;
-}
-
-.page .contact .moti-contact {
-  font-size: 2.4em;
-  font-weight: 100;
-}
-
-.page .contact .conact-btn {
-  margin: 40px 0;
-}
-
-.page .contact .conact-btn .btn {
-  text-transform: uppercase;
-  background-color: #eee;
-  color: #000 !important;
-  font-weight: 600;
-  font-size: 1.5em;
-  padding: 8px 20px;
-  border-radius: 0;
-}
-
-.page .contact .cont-site {
-  font-size: 1.5em;
-}
-
-.page .contact .info {
-  font-size: 1.5em;
-}
-
-.page .contact .social {
-  margin: 25px 0 38px;
-}
-
-.page .contact .social li {
-  margin: 0 15px;
-  display: inline-block;
-}
-
-.page .contact .social li img {
-  width: 22px;
-}
-
-/*  ----------- 02 -End page CSS   -----------*/
-/*# sourceMappingURL=main.css.map */
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work8.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work9.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img src="files/work10.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <p class="moti-contact">
+          Besoin d'un logo, une identité visuelle, une carte de visite,<br />
+          un site web, un flyers... ?
+        </p>
+        <div class="conact-btn">
+          <a href="https://www.nicolaslamy.com/contact" class="btn"
+            >Contactez-Moi</a
+          >
+        </div>
+        <p class="cont-site">www.nicolaslamy.com</p>
+        <p class="info">06 26 48 86 01 - hello@nicolaslamy.com</p>
+        <ul class="social">
+          <li>
+            <a href="https://www.instagram.com/nicolaslamy.fr/">
+              <img src="files/instg.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/nicolasIamy">
+              <img src="files/twitter.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/nicolaslamy">
+              <img src="files/behance.png" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--Slick Js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
