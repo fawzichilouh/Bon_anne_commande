@@ -49,6 +49,11 @@ body {
   }
 }
 
+p {
+  -webkit-transform: scaleY(0.9);
+  transform: scaleY(0.9);
+}
+
 /*  ----------- 01 -End Base CSS   -----------*/
 /*  ----------- 02 -Start page CSS   -----------*/
 .page {
