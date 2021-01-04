@@ -57,9 +57,6 @@
       }
 
       body {
-        font-family: "Sequel_Sans_Book";
-        font-size: 16px;
-        font-weight: 200;
       }
 
       @media (max-width: 992px) {
@@ -75,19 +72,6 @@
 
       /*  ----------- 01 -End Base CSS   -----------*/
       /*  ----------- 02 -Start page CSS   -----------*/
-      .page {
-        background-color: #000;
-        color: #eef2e2;
-        text-align: center;
-      }
-
-      .page .h-logo {
-        margin: 40px 0;
-      }
-
-      .page .h-logo img {
-        width: 15vw;
-      }
 
       @media (max-width: 992px) {
         .page .h-logo img {
@@ -96,20 +80,12 @@
       }
 
       .page .bon {
-        font-size: 7em;
-        line-height: 0.8;
-        font-family: "sequel 100black-45", sans-serif;
       }
 
       @media (max-width: 992px) {
         .page .bon {
           font-size: 5.5em;
         }
-      }
-
-      .page .annee {
-        font-size: 6em;
-        font-family: "sequel 100black-45";
       }
 
       @media (max-width: 992px) {
@@ -119,44 +95,16 @@
         }
       }
 
-      .page .annee .black {
-        color: #000;
-        -webkit-text-stroke: 0.6px #eee;
-      }
-
-      .page .annee .white {
-        font-weight: 600;
-      }
-
-      .page .motivation {
-        font-size: 2em;
-        width: 80%;
-        margin: 30px auto;
-      }
-
-      .page .bon_img img {
-        width: 9vw;
-      }
-
       @media (max-width: 992px) {
         .page .bon_img img {
           width: 12vw;
         }
       }
 
-      .page .my_work {
-        margin: 30px 0 40px;
-      }
-
       @media (max-width: 992px) {
         .page .my_work {
           margin: 20px 0 30px;
         }
-      }
-
-      .page .my_work .work-title {
-        font-size: 1.8em;
-        font-weight: 200;
       }
 
       .page .my_work .image {
@@ -167,44 +115,19 @@
         width: 100%;
       }
 
-      .page .contact .moti-contact {
-        font-size: 2.4em;
-        font-weight: 100;
-      }
-
-      .page .contact .conact-btn {
-        margin: 40px 0;
-      }
-
-      .page .contact .conact-btn .btn {
-        text-transform: uppercase;
-        background-color: #eee;
-        color: #000 !important;
-        font-weight: 600;
-        font-size: 1.5em;
-        padding: 8px 20px;
-        border-radius: 0;
-      }
-
       .page .contact .cont-site {
-        font-size: 1.5em;
       }
 
       .page .contact .info {
-        font-size: 1.5em;
       }
 
       .page .contact .social {
-        margin: 25px 0 38px;
       }
 
       .page .contact .social li {
-        margin: 0 15px;
-        display: inline-block;
       }
 
       .page .contact .social li img {
-        width: 22px;
       }
       .row > .col-6 {
         padding-left: 4px;
@@ -220,27 +143,53 @@
   </head>
   <body
     class="page"
-    style="background-color: #000; color: #eef2e2; text-align: center"
+    style="
+      background-color: #000;
+      color: #eef2e2;
+      text-align: center;
+      font-family: 'Sequel_Sans_Book';
+      font-size: 16px;
+      font-weight: 200;
+    "
   >
     <div class="container">
-      <div class="h-logo">
-        <img src="files/Group 9.svg" alt="" />
+      <div class="h-logo" style="margin: 40px 0">
+        <img src="files/Group 9.svg" alt="" style="width: 15vw" />
       </div>
-      <h2 class="bon">Bonne année</h2>
-      <h2 class="annee">
-        <span class="black">2021</span>
-        <span class="white">2021</span>
+      <h2
+        class="bon"
+        style="
+          font-size: 7em;
+          line-height: 0.8;
+          font-family: 'sequel 100black-45', sans-serif;
+        "
+      >
+        Bonne année
+      </h2>
+      <h2
+        class="annee"
+        style="font-size: 6em; font-family: 'sequel 100black-45'"
+      >
+        <span class="black" style="color: #000; -webkit-text-stroke: 0.6px #eee"
+          >2021</span
+        >
+        <span class="white" style="font-weight: 600">2021</span>
         <span class="black">2021</span>
       </h2>
-      <p class="motivation">
+      <p
+        class="motivation"
+        style="font-size: 2em; width: 80%; margin: 30px auto"
+      >
         Merci de m'avoir fait confiance durant l'année 2020, en espérant vous
         retrouver en 2021 pour poursuivre nos collaborations graphiques !
       </p>
       <div class="bon_img">
-        <img src="files/bon_anne.png" alt="" />
+        <img src="files/bon_anne.png" alt="" style="width: 9vw" />
       </div>
-      <div class="my_work">
-        <p class="work-title">Rapide coup d'oeil sur l'année 2020</p>
+      <div class="my_work" style="margin: 30px 0 40px">
+        <p class="work-title" style="font-size: 1.8em; font-weight: 200">
+          Rapide coup d'oeil sur l'année 2020
+        </p>
         <div class="row">
           <div class="col-6">
             <div class="image">
@@ -298,31 +247,44 @@
         </div>
       </div>
       <div class="contact">
-        <p class="moti-contact">
+        <p class="moti-contact" style="font-size: 2.4em; font-weight: 100">
           Besoin d'un logo, une identité visuelle, une carte de visite,<br />
           un site web, un flyers... ?
         </p>
-        <div class="conact-btn">
-          <a href="https://www.nicolaslamy.com/contact" class="btn"
+        <div class="conact-btn" style="margin: 40px 0">
+          <a
+            href="https://www.nicolaslamy.com/contact"
+            class="btn"
+            style="
+              text-transform: uppercase;
+              background-color: #eee;
+              color: #000 !important;
+              font-weight: 600;
+              font-size: 1.5em;
+              padding: 8px 20px;
+              border-radius: 0;
+            "
             >Contactez-Moi</a
           >
         </div>
-        <p class="cont-site">www.nicolaslamy.com</p>
-        <p class="info">06 26 48 86 01 - hello@nicolaslamy.com</p>
-        <ul class="social">
+        <p class="cont-site" style="font-size: 1.5em">www.nicolaslamy.com</p>
+        <p class="info" style="font-size: 1.5em">
+          06 26 48 86 01 - hello@nicolaslamy.com
+        </p>
+        <ul class="social" style="margin: 25px 0 38px">
           <li style="margin: 0 15px; display: inline-block">
             <a href="https://www.instagram.com/nicolaslamy.fr/">
-              <img src="files/instg.png" alt="" />
+              <img src="files/instg.png" alt="" style="width: 22px" />
             </a>
           </li>
           <li style="margin: 0 15px; display: inline-block">
             <a href="https://twitter.com/nicolasIamy">
-              <img src="files/twitter.png" alt="" />
+              <img src="files/twitter.png" alt="" style="width: 22px" />
             </a>
           </li>
           <li style="margin: 0 15px; display: inline-block">
             <a href="https://www.behance.net/nicolaslamy">
-              <img src="files/behance.png" alt="" />
+              <img src="files/behance.png" alt="" style="width: 22px" />
             </a>
           </li>
         </ul>
@@ -335,6 +297,5 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
